@@ -1,0 +1,72 @@
+html {
+	background: url("fancyladies.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-backgound-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #e6e6e6;
+	font-family: monospace, serif;
+}
+
+body {
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	background: #506764; 
+	display: inline-block; 
+	border: 1px solid transparent;
+}
+
+#main {
+	width: 525px;
+	float: right;
+}
+
+#about {
+	width: 525px;
+	float: right;
+}
+
+#main, #about, #me {
+	background-color: rgba(224, 243, 253, 1 )
+}
+
+.content {
+	padding: 20px 20px;
+	margin-top: 20px;
+}
+
+#me {
+	display: none;
+	position: absolute;
+}
+
+@media all and (min-width: 768px) {
+	#main {
+		float: left;
+	}
+	
+	#me {
+		display: inline;
+		right: 150px;
+	}
+	
+	#me > img {
+		width: 400px;
+	}
+	
+	#main {
+		position: absolute;
+		left: 10px;
+	}
+	
+	#about {
+		position: absolute;
+		top: 400px;
+		right: 150px;
+	}
+}
