@@ -17,56 +17,84 @@ a {
 	text-transform: uppercase;
 	color: #fff;
 	background: #506764; 
-	display: inline-block; 
 	border: 1px solid transparent;
 }
 
-#main {
-	width: 525px;
-	float: right;
+img {
+	width: 100%;
 }
 
-#about {
-	width: 525px;
-	float: right;
-}
-
-#main, #about, #me {
-	background-color: rgba(224, 243, 253, 1 )
+.container {
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .content {
-	padding: 20px 20px;
+	padding: 10px;
 	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgba(224, 243, 253, 1);
 }
 
-#me {
-	display: none;
-	position: absolute;
+.row {
+	float: left;
+	width: 100%;
 }
 
-@media all and (min-width: 768px) {
+@media only screen and (min-width : 480px) {
+	.container {
+		padding: 0;
+		max-width: 480px;
+	}
+	
+	#me {
+		display: none;
+	}
+}
+
+@media only screen and (min-width : 768px) {
+	.container {
+		max-width: 750px;
+	}
+	
+	img {
+		display: auto;
+	}
+	
 	#main {
+		width: 50%;
 		float: left;
 	}
 	
 	#me {
 		display: inline;
-		right: 150px;
-	}
-	
-	#me > img {
-		width: 400px;
-	}
-	
-	#main {
-		position: absolute;
-		left: 10px;
+		width: 40%;
+		float: right;
 	}
 	
 	#about {
-		position: absolute;
-		top: 400px;
-		right: 150px;
+		width: 100%;
+		margin-top: 30px;
+		margin-bottom: 10px;
+		margin: 30px auto 10px;
+	}
+}
+
+@media only screen and (min-width : 992px) {
+	.container {
+		max-width: 970px;
+	}
+	
+	#about {
+		width: 60%;
+		float: right;
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (min-width : 1200px) {
+	.container {
+		max-width: 1170px;
 	}
 }
