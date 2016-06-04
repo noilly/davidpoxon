@@ -61,7 +61,7 @@ section.module.parallax-1 {
 .sub-me {
 	font-weight: normal;
 	font-style: italic;
-	font-size: 30px;;
+	font-size: 30px;
 }
 
 @media all and (min-width: 600px) {
@@ -75,6 +75,10 @@ section.module.parallax-1 {
   
   section.module.parallax h1 {
     font-size: 96px;
+  }
+
+  .sub-me {
+	font-size: 20px;
   }
 }
 
