@@ -37,7 +37,7 @@ section.module.content {
 section.module.parallax {
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+ /* background-attachment: fixed;*/
   background-size: cover;
   -webkit-background-size: cover;
   -moz-backgound-size: cover;
