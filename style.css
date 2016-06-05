@@ -35,7 +35,7 @@ section.module.content {
 }
 
 section.module.parallax {
-  background-position: right top;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -45,9 +45,10 @@ section.module.parallax {
 }
 
 section.module.parallax h1 {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, .8);
   font-weight: bolder;
   font-size: 25px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
 section.module.parallax-1 {
