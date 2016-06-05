@@ -35,7 +35,7 @@ section.module.content {
 }
 
 section.module.parallax {
-  background-position: center top;
+  background-position: right top;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -57,7 +57,7 @@ section.module.parallax-1 {
 }
 
 .me {
-	padding-top: 100px;
+	padding-top: 25px;
 }
 
 .sub-me {
