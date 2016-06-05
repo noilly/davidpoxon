@@ -35,9 +35,9 @@ section.module.content {
 }
 
 section.module.parallax {
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
- /* background-attachment: fixed;*/
+  background-attachment: fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-backgound-size: cover;
@@ -47,11 +47,13 @@ section.module.parallax {
 section.module.parallax h1 {
   color: rgba(0, 0, 0, 0.8);
   font-weight: bolder;
+  font-size: 25px;
 }
 
 section.module.parallax-1 {
   background-image: url("me.jpg");
   height: 100%;
+  background-color: rgba(255, 255, 255, 0.5)
 }
 
 .me {
@@ -61,7 +63,11 @@ section.module.parallax-1 {
 .sub-me {
 	font-weight: normal;
 	font-style: italic;
-	font-size: 25px;
+	font-size: 15px;
+}
+
+@media screen and (max-device-width: 1024px){
+  background-attachment: scroll;
 }
 
 @media all and (min-width: 600px) {
@@ -74,11 +80,11 @@ section.module.parallax-1 {
   }
   
   section.module.parallax h1 {
-    font-size: 96px;
+    font-size: 55px;
   }
 
   .sub-me {
-	font-size: 20px;
+	  font-size: 35px;
   }
 }
 
