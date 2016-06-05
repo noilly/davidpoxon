@@ -35,13 +35,13 @@ section.module.content {
 }
 
 section.module.parallax {
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-backgound-size: cover;
-  -o-background-size: cover;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-backgound-size: contain;
+  -o-background-size: contain;
 }
 
 section.module.parallax h1 {
@@ -52,13 +52,13 @@ section.module.parallax h1 {
 }
 
 section.module.parallax-1 {
-  background-image: url("me.jpg");
+  background-image: url("me.png");
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.5)
+  background-color: rgb(206, 207, 207)
 }
 
 .me {
-	padding-top: 25px;
+	padding-top: 50px;
 }
 
 .sub-me {
